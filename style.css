@@ -1,0 +1,14 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    min-height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+footer {
+    margin-top: 50px;
+}
