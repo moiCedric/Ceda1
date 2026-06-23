@@ -23,3 +23,11 @@ h1, h2 {
 .navbar-brand {
     font-weight: bold;
 }
+.navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+footer p {
+    margin: 0;
+}
