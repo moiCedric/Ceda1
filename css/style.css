@@ -123,3 +123,23 @@
 .admissions-hero p {
     color: white;
 }
+.events-hero {
+    background: linear-gradient(
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    ),
+    url("../images/images\ \(4\).jpeg");
+
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.events-hero h1,
+.events-hero p {
+    color: white;
+}
