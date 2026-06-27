@@ -19,11 +19,21 @@ if (contactForm) {
     });
 }
 
-// Dark mode toggle
+// Persistent dark mode
 const darkModeBtn = document.getElementById("darkModeBtn");
+
+if (localStorage.getItem("darkMode") === "enabled") {
+    document.body.classList.add("dark-mode");
+}
 
 if (darkModeBtn) {
     darkModeBtn.addEventListener("click", function () {
         document.body.classList.toggle("dark-mode");
+
+        if (document.body.classList.contains("dark-mode")) {
+            localStorage.setItem("darkMode", "enabled");
+        } else {
+            localStorage.setItem("darkMode", "disabled");
+        }
     });
 }
