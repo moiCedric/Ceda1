@@ -74,3 +74,32 @@
         font-size: 1rem;
     }
 }
+.about-hero {
+    background: linear-gradient(
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    ),
+    url("../images/images\ \(2\).jpeg");
+
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-hero h1,
+.about-hero p {
+    color: white;
+}
+@media (max-width: 768px) {
+    .about-hero {
+        height: 300px;
+    }
+
+    .about-hero h1 {
+        font-size: 2rem;
+    }
+}
