@@ -148,3 +148,8 @@
     transform: scale(1.03);
     transition: 0.3s;
 }
+.dark-mode h1,
+.dark-mode h2,
+.dark-mode h3 {
+    color: #ffffff;
+}
