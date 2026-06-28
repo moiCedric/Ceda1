@@ -132,7 +132,7 @@
 
     background-size: cover;
     background-position: center;
-    height: 400px;
+    height: 400px; 
 
     display: flex;
     justify-content: center;
@@ -142,4 +142,9 @@
 .events-hero h1,
 .events-hero p {
     color: white;
+}
+
+.btn:hover {
+    transform: scale(1.03);
+    transition: 0.3s;
 }
